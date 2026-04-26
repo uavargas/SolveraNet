@@ -1,0 +1,13 @@
+-- V2__create_users_table.sql
+DROP TABLE IF EXISTS users CASCADE;
+
+CREATE TABLE users (
+    id UUID PRIMARY KEY, -- Generado por Java (GenerationType.UUID)
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    role_id BIGINT NOT NULL, 
+    is_active BOOLEAN NOT NULL DEFAULT TRUE,
+    created_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_role FOREIGN KEY (role_id) REFERENCES roles(id)
+);

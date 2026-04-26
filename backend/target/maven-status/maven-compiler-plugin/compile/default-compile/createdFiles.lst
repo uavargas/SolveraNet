@@ -1,0 +1,8 @@
+solveranet/backend/model/Role$RoleBuilder.class
+solveranet/backend/model/User.class
+solveranet/backend/BackendApplication.class
+db/migration/V1__init_schema.sql
+db/migration/V2__create_users_table.sql
+solveranet/backend/model/Role.class
+application.yaml
+solveranet/backend/model/User$UserBuilder.class

@@ -1,0 +1,45 @@
+# ==========================================
+# 1. SEGURIDAD Y ENTORNO (¡CRÍTICO!)
+# ==========================================
+.env
+*.env
+*.env.*
+
+# ==========================================
+# 2. BACKEND (Java / Spring Boot)
+# ==========================================
+backend/target/
+backend/HELP.md
+backend/*.log
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# 3. FRONTEND (Angular / Node)
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/coverage/
+frontend/*.log
+
+# ==========================================
+# 4. IDEs (VS Code, IntelliJ, Eclipse)
+# ==========================================
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# ==========================================
+# 5. SISTEMA OPERATIVO
+# ==========================================
+.DS_Store
+Thumbs.db
