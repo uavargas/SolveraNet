@@ -1,3 +1,14 @@
 /home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/BackendApplication.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/config/ApplicationConfig.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/config/SecurityConfiguration.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/controller/AuthController.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/dto/AuthRequest.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/dto/AuthResponse.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/dto/RegisterRequest.java
 /home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/model/Role.java
 /home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/model/User.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/repository/RoleRepository.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/repository/UserRepository.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/security/JwtAuthenticationFilter.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/security/JwtService.java
+/home/alonso/Documents/ProyectosProgramacion/DevSeniorFinalProject/SolveraNet/backend/src/main/java/solveranet/backend/service/AuthService.java

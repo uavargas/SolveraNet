@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5434,
+            "driver": "PostgreSQL",
+            "name": "SolveraNet",
+            "database": "solveranet_db",
+            "username": "solveranet_admin",
+            "password": "Password123"
+        }
+    ],
+    "postman.settings.dotenv-detection-notification-visibility": false
+}
