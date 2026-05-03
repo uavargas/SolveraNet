@@ -1,0 +1,6 @@
+<svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="28,4 50,16 50,40 28,52 6,40 6,16"
+           fill="rgba(74,144,200,0.15)" stroke="rgba(74,144,200,0.6)" stroke-width="1.5"/>
+  <text x="28" y="33" text-anchor="middle" font-size="13"
+        font-weight="700" fill="#4A90C8" font-family="monospace">SN</text>
+</svg>

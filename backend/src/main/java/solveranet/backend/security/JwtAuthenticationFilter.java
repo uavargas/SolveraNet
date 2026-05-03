@@ -4,7 +4,6 @@ import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import lombok.RequiredArgsConstructor;
 import org.springframework.lang.NonNull;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -65,12 +64,12 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                 );
                 authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                 
-                // 5. "Sellamos el pasaporte": El usuario ahora tiene permiso para esta petición
+                // 5. El usuario ahora tiene permiso para esta petición
                 SecurityContextHolder.getContext().setAuthentication(authToken);
             }
         }
         
-        // 6. Continuamos con el siguiente filtro en la cadena
+        // 
         filterChain.doFilter(request, response);
     }
 }
